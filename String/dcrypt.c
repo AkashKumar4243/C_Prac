@@ -13,7 +13,7 @@ void dcrypt (char *st,char *st2){
             st2++;
             st++;
         } else{
-            *st2 = *st - 1;     // why *st -= 1; not works because we just dec
+            *st2 = *st - 1;     // why *st -= 1; not works because we just decresing not assigning
             st2++;
             st++;
         }
