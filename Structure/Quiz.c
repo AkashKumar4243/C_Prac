@@ -15,7 +15,7 @@ int main () {
         scanf("%d",&e[i].code);
         printf("Enter employee %d name : ",(i+1));
         scanf("%s",&e[i].name);
-        // gets(e[i].name);
+        // gets(e[i].name);             //why this not works
         printf("Enter employee %d salary : ",(i+1));
         scanf("%d",&e[i].salary);
     }
